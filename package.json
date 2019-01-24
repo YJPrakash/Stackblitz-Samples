@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@stackblitz/sdk": "1.0.0"
+    "@stackblitz/sdk": "1.0.0",
+    "express": "^4.16.4"
   }
 }
