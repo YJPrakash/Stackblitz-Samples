@@ -1,5 +1,5 @@
 {
-  "name": "stackblitz-typescript",
+  "name": "stackblitz-samples",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -16,16 +16,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "build": "webpack"
+    "build": "webpack -p",
+    "deploy": "gcloud app deploy",
+    "browse": "gcloud app browse"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YJPrakash/Stackblitz-typescript.git"
+    "url": "git+https://github.com/YJPrakash/Stackblitz-Samples.git"
   },
   "author": "YJPrakash",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/YJPrakash/Stackblitz-typescript/issues"
+    "url": "https://github.com/YJPrakash/Stackblitz-Samples/issues"
   },
   "homepage": "https://github.com/YJPrakash/Stackblitz-typescript#readme"
 }
