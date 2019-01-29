@@ -17,6 +17,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build": "webpack -p",
+    "dev": "webpack-dev-server --open",
     "deploy": "gcloud app deploy",
     "browse": "gcloud app browse"
   },

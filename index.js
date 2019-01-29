@@ -1,4 +1,4 @@
-import 'jquery';
+// import 'jquery';
 import sdk from '@stackblitz/sdk';
 // import './styles.css';
 

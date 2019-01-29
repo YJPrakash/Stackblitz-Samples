@@ -21,7 +21,7 @@ module.exports = {
                     chunks(chunk) {
                         // exclude `my-excluded-chunk`
                         console.log("chunk.name", chunk.name);
-                        return chunk.name !== 'webpack' && chunk.name !== '@stackblitz/sdk';
+                        return chunk.name !== 'webpack' && chunk.name !== 'webpack-dev-server' && chunk.name !== '@stackblitz/sdk';
                     }                
                 }
             }
