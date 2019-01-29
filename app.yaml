@@ -14,5 +14,5 @@
 # [START gae_quickstart_yaml]
 runtime: nodejs10
 # [END gae_quickstart_yaml]
-GAE_VERSION = 1.0
-GAE_SERVICE = stackblitzsdk
+GAE_VERSION: 1.0
+GAE_SERVICE: stackblitzsdk
