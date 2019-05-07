@@ -5,7 +5,7 @@
   "dependencies": {
     "@stackblitz/sdk": "1.0.0",
     "express": "^4.16.4",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "webpack": "^4.29.0"
   },
   "description": "Stackblitz",
